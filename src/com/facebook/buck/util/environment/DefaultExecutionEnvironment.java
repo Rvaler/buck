@@ -76,7 +76,8 @@ public class DefaultExecutionEnvironment implements ExecutionEnvironment {
 
   @Override
   public Optional<String> getWifiSsid() {
-    return NetworkInfo.getWifiSsid();
+    return Optional.empty();
+//     return NetworkInfo.getWifiSsid();
   }
 
   @Override
